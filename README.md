@@ -68,7 +68,7 @@ Se identificaron y evaluaron 10 riesgos críticos y técnicos divididos en dos c
 - **Técnicos del producto**
 
 Cada riesgo fue evaluado con base en su **probabilidad**, **impacto** y **nivel de riesgo**, y se asignaron responsables y planes de mitigación.  
-Consulta la matriz y los registros detallados en el archivo: `fase_1/plan-gestion-riesgos.md`.
+Consulta la matriz y los registros detallados en el archivo: `FASE_1/Plan_de_gestion_de_riesgos.pdf`.
 
 ---
 
@@ -90,17 +90,17 @@ Incluye:
 - Tiempos estimados por actividad
 - Responsables y entregables por sprint
 
-Archivo: `fase_1/evidencias/cronograma.pdf`
+Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 
 ---
 
 ## Documentación Complementaria
 
-- [`fase_1/definicion-proyecto.pdf`](./fase_1/definicion_proyecto_de_software.pdf): Objetivos, contexto y relevancia académica
-- [`fase_1/arquitectura-software.pdf`](./fase_1/arquitectura_de_software.pdf): Diseño técnico del sistema
-- [`fase_1/propuesta-desarrollo.pdf`](./fase_1/propuesta_desarrollo_de_software.pdf): Planificación y metodología aplicada
-- [`fase_1/plan-gestion-riesgos.pdf`](./fase_1/plan_de_gestion_de_riesgos.pdf): Registro y control de riesgos
-- [`fase_1/evidencias/`](./fase_1/evidencias/): Resultados de sprints, avances, pruebas
+- [`FASE_1/PTY4478_APT2_FASE_1_Grupo_3_Seccion_2_DefinicionATP.pdf`](./FASE_1/PTY4478_APT2_FASE_1_Grupo_3_Seccion_2_DefinicionATP.pdf): Objetivos, contexto y relevancia académica
+- [`FASE_1/Arquitectura_de_software.pdf`](./FASE_1/Arquitectura_de_software.pdf.pdf): Diseño técnico del sistema
+- [`FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf`](./FASE_1/EVIDENCIAS/propuesta_desarrollo_de_software.pdf): Propuesta de desarrollo de software
+- [`FASE_1/Plan_de_gestion_de_riesgos.pdf`](./FASE_1/Plan_de_gestion_de_riesgos.pdf): Registro y control de riesgos
+- [`FASE_1/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Resultados de sprints, avances, pruebas
 
 ---
 
