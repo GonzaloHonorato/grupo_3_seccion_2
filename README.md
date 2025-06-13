@@ -16,9 +16,9 @@ Este proyecto tiene como objetivo desarrollar una solución tecnológica para **
 
 ## Ingreso DEMO
 
-Usuario Admin/OPS [text](https://duoc-parking-ops.adndigital.cl/auth/login?user=gonzalo.team@adndigital.cl&password=121212)
+Usuario Admin/OPS [Link ](https://duoc-parking-ops.adndigital.cl/auth/login?user=gonzalo.team@adndigital.cl&password=121212)
 
-Usuario Cliente [text](https://duoc-parking-ops.adndigital.cl/auth/login?user=juan.espinoza@duocuc.cl&password=121212)
+Usuario Cliente [Link](https://duoc-parking-ops.adndigital.cl/auth/login?user=juan.espinoza@duocuc.cl&password=121212)
 
 ## Arquitectura de Software
 
