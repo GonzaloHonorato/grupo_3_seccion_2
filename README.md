@@ -1,4 +1,4 @@
-#  Automatización y Control de Estacionamientos
+# Automatización y Control de Estacionamientos
 
 **Proyecto de Portafolio de Título**  
 **Carrera:** Analista Programador Computacional  
@@ -14,11 +14,18 @@ Este proyecto tiene como objetivo desarrollar una solución tecnológica para **
 
 ---
 
+## Ingreso DEMO
+
+Usuario Admin/OPS [text](https://duoc-parking-ops.adndigital.cl/auth/login?user=gonzalo.team@adndigital.cl&password=121212)
+
+Usuario Cliente [text](https://duoc-parking-ops.adndigital.cl/auth/login?user=juan.espinoza@duocuc.cl&password=121212)
+
 ## Arquitectura de Software
 
 El sistema está basado en una **arquitectura cliente-servidor**, con separación de responsabilidades:
 
 ### Cliente (Frontend)
+
 - **Tecnologías:** Vue 3, TypeScript, CSS
 - **Funciones principales:**
   - Reserva de estacionamiento
@@ -27,6 +34,7 @@ El sistema está basado en una **arquitectura cliente-servidor**, con separació
   - Panel administrativo
 
 ### Servidor (Backend)
+
 - **Tecnologías:** Node.js o Go (por definir)
 - **Funciones principales:**
   - Autenticación con Google
@@ -35,6 +43,7 @@ El sistema está basado en una **arquitectura cliente-servidor**, con separació
   - Almacenamiento en Google Cloud
 
 ### Base de Datos
+
 - **Tecnología:** SQLite (modo local offline)
 - **Uso:** Usuarios, reservas, registros de acceso y configuración del sistema
 
@@ -45,6 +54,7 @@ El sistema está basado en una **arquitectura cliente-servidor**, con separació
 El desarrollo se realiza utilizando **Scrum** como metodología ágil principal, complementado con prácticas de **Extreme Programming (XP)** para asegurar calidad técnica.
 
 ### Fases del Proyecto
+
 1. Levantamiento de Requisitos
 2. Diseño del Sistema (UML, Wireframes)
 3. Desarrollo Técnico (Frontend + Backend)
@@ -52,6 +62,7 @@ El desarrollo se realiza utilizando **Scrum** como metodología ágil principal,
 5. Documentación y Despliegue
 
 ### Herramientas Utilizadas
+
 - **Jira:** Gestión de tareas y backlog
 - **GitHub:** Control de versiones e integración continua
 - **Figma:** Prototipado UI/UX
@@ -75,6 +86,7 @@ Consulta la matriz y los registros detallados en el archivo: `FASE_1/Plan_de_ges
 ## Evidencias
 
 ### Diagramas UML
+
 - Diagrama de casos de uso
 - Diagrama de clases
 - Diagrama de componentes
@@ -83,9 +95,11 @@ Consulta la matriz y los registros detallados en el archivo: `FASE_1/Plan_de_ges
 Ubicados en: `fase_1/evidencias/`
 
 ### Cronograma del Proyecto
+
 El proyecto se organiza en **10 sprints**, cubriendo 4 meses de duración.
 
 Incluye:
+
 - Gantt general
 - Tiempos estimados por actividad
 - Responsables y entregables por sprint
@@ -106,7 +120,7 @@ Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 
 ## 🎓 Propósito Académico
 
-Este proyecto ha sido desarrollado como parte del **portafolio de título** de la carrera *Analista Programador Computacional*, demostrando competencias en:
+Este proyecto ha sido desarrollado como parte del **portafolio de título** de la carrera _Analista Programador Computacional_, demostrando competencias en:
 
 - Desarrollo de software seguro y de calidad
 - Integración con tecnologías avanzadas (OCR, PWA, API)
@@ -117,11 +131,10 @@ Este proyecto ha sido desarrollado como parte del **portafolio de título** de l
 
 ## Contacto
 
-- **David Nova:** da.nova@duocuc.cl  
-- **Juan Espinoza:** juaa.espinoza@duocuc.cl  
+- **David Nova:** da.nova@duocuc.cl
+- **Juan Espinoza:** juaa.espinoza@duocuc.cl
 - **Gonzalo Honorato:** g.honorato@duocuc.cl
 
 ---
 
 > **Licencia y uso:** Este proyecto fue desarrollado exclusivamente con fines académicos. Cualquier uso, copia o reproducción debe contar con autorización expresa de los autores.
-
