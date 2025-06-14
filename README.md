@@ -10,11 +10,11 @@
 
 ## Descripción del Proyecto
 
-Este proyecto tiene como objetivo desarrollar una solución tecnológica para **automatizar y gestionar estacionamientos** en entornos institucionales, como sedes educativas. A través del uso de tecnologías como **PWA**, **lectura de patentes (OCR)** y **códigos QR**, se busca mejorar la eficiencia, trazabilidad y experiencia de los usuarios al momento de acceder a espacios de estacionamiento.
+Este proyecto tiene como objetivo desarrollar una solución tecnológica para **automatizar y gestionar estacionamientos** en entornos institucionales, como sedes educativas. A través del uso de tecnologías como **PWA**, **lectura de patentes (OCR)** y **códigos QR**, se busca mejorar la eficiencia, trazabilidad y experiencia de los usuarios al momento de acceder a espacios de estacionamiento, además permite la gestión de reservas y verificación de cronogramas.
 
 ---
 
-## Ingreso DEMO
+## Ingreso a la aplicación de demostración.
 
 Usuario Admin/OPS [Link ](https://duoc-parking-ops.adndigital.cl/auth/login?user=gonzalo.team@adndigital.cl&password=121212)
 
@@ -46,6 +46,16 @@ El sistema está basado en una **arquitectura cliente-servidor**, con separació
 
 - **Tecnología:** SQLite (modo local offline)
 - **Uso:** Usuarios, reservas, registros de acceso y configuración del sistema
+
+### Websocket
+
+- **Tecnología:** Websocket
+- **Uso:** Notificaciones y actualizaciones en tiempo real
+
+### Docker y kubernetes
+
+- **Tecnología:** Docker y Kubernetes
+- **Uso:** Despliegue y automatización de contenedores, actualmente esta desplegada en docker y tiene la capacidad de desplegar en kubernetes
 
 ---
 
@@ -115,6 +125,10 @@ Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 - [`FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf`](./FASE_1/EVIDENCIAS/propuesta_desarrollo_de_software.pdf): Propuesta de desarrollo de software
 - [`FASE_1/Plan_de_gestion_de_riesgos.pdf`](./FASE_1/Plan_de_gestion_de_riesgos.pdf): Registro y control de riesgos
 - [`FASE_1/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Resultados de sprints, avances, pruebas
+- [`FASE_2/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Resultados de sprints, avances, pruebas
+- [`FASE_2/PTY4478_ATP2_0_FASE_2.pdf`](./FASE_1/PTY4478_ATP2_0_FASE 2.pdf): Informe final fase 2
+- [`FASE_2/DBModel.pdf`](./FASE_2/DBModel.pdf): Informe final fase 2
+- [`FASE_3/Presentacion.pdf`](./FASE_2/Presentacion.pdf): Presentación final
 
 ---
 
