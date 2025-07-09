@@ -124,11 +124,11 @@ Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 - [`FASE_1/Arquitectura_de_software.pdf`](./FASE_1/Arquitectura_de_software.pdf.pdf): Diseño técnico del sistema
 - [`FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf`](./FASE_1/EVIDENCIAS/propuesta_desarrollo_de_software.pdf): Propuesta de desarrollo de software
 - [`FASE_1/Plan_de_gestion_de_riesgos.pdf`](./FASE_1/Plan_de_gestion_de_riesgos.pdf): Registro y control de riesgos
-- [`FASE_1/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Resultados de sprints, avances, pruebas
-- [`FASE_2/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Resultados de sprints, avances, pruebas
+- [`FASE_1/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Resultados de sprints, avances, pruebas
+- [`FASE_2/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Resultados de sprints, avances, pruebas
 - [`FASE_2/PTY4478_ATP2_0_FASE_2.pdf`](./FASE_1/PTY4478_ATP2_0_FASE 2.pdf): Informe final fase 2
-- [`FASE_2/DBModel.pdf`](./FASE_2/DBModel.pdf): Informe final fase 2
-- [`FASE_3/Presentacion.pdf`](./FASE_2/Presentacion.pdf): Presentación final
+- [`FASE_2/EVIDENCIAS/DBModel.pdf`](./FASE_2/EVIDENCIAS/DBModel.pdf): Modelo de datos
+- [`FASE_3/Presentacion.pdf`](./FASE_3/Presentacion.pdf): Presentación final
 
 ---
 
