@@ -128,7 +128,6 @@ Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 - [`FASE_2/PTY4478_ATP2_0_FASE_2.pdf`](./FASE_2/PTY4478_ATP2_0_FASE_2.pdf): Informe final fase 2
 - [`FASE_2/PTY4478_EVALUACION_FORMATIVA.pdf`](./FASE_2/PTY4478_EVALUACION_FORMATIVA.pdf): Evaluación formativa fase 2
 - [`FASE_2/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Backlog, modelo de datos y evidencias de desarrollo
-- [`FASE_3/PPT_Final.pdf`](./FASE_3/PPT_Final.pdf): Presentación final PowerPoint
 - [`FASE_3/Presentacion.pdf`](./FASE_3/Presentacion.pdf): Presentación final
 
 ---
