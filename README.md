@@ -102,7 +102,7 @@ Consulta la matriz y los registros detallados en el archivo: `FASE_1/Plan_de_ges
 - Diagrama de componentes
 - Diagrama de despliegue
 
-Ubicados en: `fase_1/evidencias/`
+Ubicados en: `FASE_1/EVIDENCIAS/`
 
 ### Cronograma del Proyecto
 
@@ -121,13 +121,14 @@ Archivo: `FASE_1/EVIDENCIAS/Cronograma.pdf `
 ## Documentación Complementaria
 
 - [`FASE_1/PTY4478_APT2_FASE_1_Grupo_3_Seccion_2_DefinicionATP.pdf`](./FASE_1/PTY4478_APT2_FASE_1_Grupo_3_Seccion_2_DefinicionATP.pdf): Objetivos, contexto y relevancia académica
-- [`FASE_1/Arquitectura_de_software.pdf`](./FASE_1/Arquitectura_de_software.pdf.pdf): Diseño técnico del sistema
-- [`FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf`](./FASE_1/EVIDENCIAS/propuesta_desarrollo_de_software.pdf): Propuesta de desarrollo de software
+- [`FASE_1/Arquitectura_de_software.pdf`](./FASE_1/Arquitectura_de_software.pdf): Diseño técnico del sistema
+- [`FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf`](./FASE_1/EVIDENCIAS/Propuesta_de_desarrollo_de_software.pdf): Propuesta de desarrollo de software
 - [`FASE_1/Plan_de_gestion_de_riesgos.pdf`](./FASE_1/Plan_de_gestion_de_riesgos.pdf): Registro y control de riesgos
-- [`FASE_1/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Resultados de sprints, avances, pruebas
-- [`FASE_2/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Resultados de sprints, avances, pruebas
-- [`FASE_2/PTY4478_ATP2_0_FASE_2.pdf`](./FASE_1/PTY4478_ATP2_0_FASE 2.pdf): Informe final fase 2
-- [`FASE_2/EVIDENCIAS/DBModel.pdf`](./FASE_2/EVIDENCIAS/DBModel.pdf): Modelo de datos
+- [`FASE_1/EVIDENCIAS/`](./FASE_1/EVIDENCIAS/): Diagramas UML y cronograma
+- [`FASE_2/PTY4478_ATP2_0_FASE_2.pdf`](./FASE_2/PTY4478_ATP2_0_FASE_2.pdf): Informe final fase 2
+- [`FASE_2/PTY4478_EVALUACION_FORMATIVA.pdf`](./FASE_2/PTY4478_EVALUACION_FORMATIVA.pdf): Evaluación formativa fase 2
+- [`FASE_2/EVIDENCIAS/`](./FASE_2/EVIDENCIAS/): Backlog, modelo de datos y evidencias de desarrollo
+- [`FASE_3/PPT_Final.pdf`](./FASE_3/PPT_Final.pdf): Presentación final PowerPoint
 - [`FASE_3/Presentacion.pdf`](./FASE_3/Presentacion.pdf): Presentación final
 
 ---
