@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgres
+    container_name: postgres-db
+    restart: always
+    environment:
+      POSTGRES_USER: dbservergo
+      POSTGRES_PASSWORD: super
+      POSTGRES_DB: miappdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - webnet
+
+  go-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: go-app
+    restart: always
+    environment:
+      VIRTUAL_HOST: duoc-parkings.adndigital.cl
+      LETSENCRYPT_HOST: duoc-parkings.adndigital.cl
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: dbservergo
+      DB_PASSWORD: super
+      DB_NAME: miappdb
+      PORT: 80
+      ENV: DEV
+      DATABASE_URL: postgres://dbservergo:super@db:5432/miappdb?sslmode=disable
+      FIREBASE_TYPE: service_account
+      FIREBASE_PROJECT_ID: portfolioapp-54ca1
+      FIREBASE_PRIVATE_KEY_ID: 49803e9d93018f3029553d79a41018b5341a94e1
+      FIREBASE_PRIVATE_KEY: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD0CM2+6I8FJ242\n9g4XSzi136tGceimOPK9f7ZzYPmSAWX4MxGWwjZEvIsxHnqqc4LL0J+dksNqXhvS\ngktVfl5TUfAYPrjGyfbLyfiqwxfh4kdKCSGZB3s1zHtaO4NZdvEX8IBs6130kAVF\nhjpj5Qa0QCkmZimAvKpxhSq7Ou9LzTFSfqkRSkGtC9cTqqk/SJfkTUTdxPj6Iztm\naUnB876nK0l3EGP2znCzCQMvx9J5pRjIhgWf7XEiNioW4jWbHD5+g+l3I8yjo8Zj\n8hNxaSbzfkXFihTo+T8in2rm8dTfDzufP3HumKQcJLRd0MTTuIQoeWALJaCe5681\nOTUOQIjxAgMBAAECggEAHNZnfc5cjEbfEtabzqvgbTmbs0zlqbLkGHmdlV/ZziOl\nKaHbS73yjMfdCPZpl3fj9nLWUdgUiJ7LWeJ0xYsT2XO+1BahXjhili1tWbyJN3O2\naezPUBaevDpIP172BB32mpYcjwJ3TV2xicg1YTWgx68nTbbX47Mnzxdl988clQ/U\n2AAbBYXpbu7NrihsUu1kbrhBbDiFXkzu0ixMIk/XDV+nNqWs13Kvqf3hAQmj4gqx\nSzVeK04nXA6W8YuEhgkVgARzWLRsVjaF5X3hdh5w45XcXlaB3HszhUnmsUMmoZ+o\n5ImFKcS9ILWVkfpQ5il11B6AgUdh5D7ESINtGfqR+QKBgQD6vtL4i6FYfMsj2Ofm\n0kIxx9dE7AOIo3v+PGx5pPVi3FP7yBh8Sxz2Eex1m95kKKVAnGbc311uHZP8ttmV\nvIWmxEknGc1Vd3YGrmEFbgAxffYIcMKuc1Dl4MM8dZcCWnAL3mfG2Nt26ZW898nD\njCpz8zKAM9i5PqLVXIhA5Ozr/QKBgQD5JfoY0z5oJOPossyYGlytzimJheWMm2Yy\nodw1uREnvTLhpb/gOqRNeCdx7e8vbADf5OXYOQX/rClbzCTJI0ZEIE6lkWQ/lbrx\nV4fM+ejiWh7ot+8CzAe23xNeWgXKPrt/ixSIpdk+iXR2h14pFE6DliK9iVNgiZ3N\njpcEiy6xBQKBgQCrNdL+DPFtZ0CZyIiIDjdOoGK31+ONz/thHEcBRIadK05ZFEbL\nz8oFpzVrFLPkdfBoTqLZ29aC0sVygDPPzzr/JPXCMhcHbZt0cmsi9vpA0P5Gwx/b\nWDf7zt3gkXY8EB6DrCf2Gaq45kPtFNB6qmFubLel3ED2M/Ohdh4/GVFAzQKBgQDL\nsiXoWAUkxkxjOpOVI7B0FSLWodcL/x0t9jGA5r7E26WW4JmgLLGZ+MtfFSXBgq6w\nXocgIXbrEol52MyWebWAC13hdZ4dckA2AtcvWX7yWLX+lCrgAYmpFHbUZAtpz6Ih\n48a09ctImr7SDViJg2WxpXTfuz+kpL6UiaikeVqCNQKBgGsGlrx3xbj/RfWFcjjr\n3hd+mxc9VK4v/asLjPok6wOB/RSkqkyrIpAC6Avg9FXDSuPEhhMhP0llBGvF+8cz\nzEMX1gKOel4R5XIIu2+jQ4HXp6B/+00kTGpU5X6MYukAzmSS90OJu/+yE2lil9KF\nDds4VCE/oLXKUhfBUo3ImjTQ\n-----END PRIVATE KEY-----\n"
+      FIREBASE_CLIENT_EMAIL: firebase-adminsdk-fbsvc@portfolioapp-54ca1.iam.gserviceaccount.com
+      FIREBASE_CLIENT_ID: 102952981329673842109
+      FIREBASE_AUTH_URI: https://accounts.google.com/o/oauth2/auth
+      FIREBASE_TOKEN_URI: https://oauth2.googleapis.com/token
+      FIREBASE_AUTH_PROVIDER_X509_CERT_URL: https://www.googleapis.com/oauth2/v1/certs
+      FIREBASE_CLIENT_X509_CERT_URL: https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40portfolioapp-54ca1.iam.gserviceaccount.com
+      FIREBASE_UNIVERSE_DOMAIN: googleapis.com
+      TOGETHER_API_KEY: b7492d8c520bb24705e848b3f137b59f3f2e1a36a5fcd3577d3c6c2b9aa04339
+      RESERVATION_CANCELLATION_INTERVAL: 5
+      PARKING_ACTIVATION_INTERVAL: 5
+      RESERVATION_GRACE_PERIOD_MINUTES: 15
+      RESERVATION_BLOCKING_WINDOW_HOURS: 6
+      RESERVATION_ACTIVATION_WINDOW_HOURS: 1
+    depends_on:
+      - db
+    networks:
+      - webnet
+
+networks:
+  webnet:
+    external: true

@@ -1,0 +1,8 @@
+FROM postgres:16
+
+ENV POSTGRES_USER=dbservergo
+ENV POSTGRES_PASSWORD=super
+ENV POSTGRES_DB=miappdb
+
+
+EXPOSE 5432
